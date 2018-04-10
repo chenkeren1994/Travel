@@ -2,7 +2,7 @@
     <div>
       <div class="title">热销推荐</div>
       <ul>
-        <li v-for="item in recommendList" :key="item.id" class="item border-bottom">
+        <li v-for="item in list" :key="item.id" class="item border-bottom">
           <img class="item-img" :src="item.imgUrl" :alt="item.title">
           <div class="item-info">
             <p class="item-title">{{item.title}}</p>
@@ -17,47 +17,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [
-        {
-          id: '0001',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1509/99/990b3e72493bf6f2.img.jpg_150x150_5a19cb12.jpg',
-          title: '沈阳故宫',
-          desc: '近期小伙伴们收藏最！多！的景点😊'
-        },
-        {
-          id: '0002',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1706/23/238f540754b2bdd1a3.water.jpg_200x200_86c3c010.jpg',
-          title: '七星海世界',
-          desc: '美轮美奂的海洋主题综合型亲子乐园'
-        },
-        {
-          id: '0003',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/201301/17/488c835720fe935e93835fbb.jpg_200x200_dfe1c952.jpg',
-          title: '沈阳森林动物园',
-          desc: '9月27日，到熊猫馆看“滚滚”来！'
-        },
-        {
-          id: '0004',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1509/99/990b3e72493bf6f2.img.jpg_150x150_5a19cb12.jpg',
-          title: '沈阳故宫',
-          desc: '近期小伙伴们收藏最！多！的景点😊'
-        },
-        {
-          id: '0005',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1706/23/238f540754b2bdd1a3.water.jpg_200x200_86c3c010.jpg',
-          title: '七星海世界',
-          desc: '美轮美奂的海洋主题综合型亲子乐园'
-        },
-        {
-          id: '0006',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/201301/17/488c835720fe935e93835fbb.jpg_200x200_dfe1c952.jpg',
-          title: '沈阳森林动物园',
-          desc: '9月27日，到熊猫馆看“滚滚”来！'
-        }
-      ]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
@@ -89,7 +50,7 @@ export default {
       color #ccc
     .item-button
       line-height .44rem
-      margin-top .16rem
+      margin-top .26rem
       color #fff
       background #ff9300
       padding 0 .2rem
