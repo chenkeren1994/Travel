@@ -16,6 +16,7 @@ export default {
 <style lang="stylus" scoped>
 @import '~styles/varibles.styl'
   .header
+    z-index 2
     position relative
     overflow hidden
     background $bgColor
