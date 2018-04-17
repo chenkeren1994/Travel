@@ -2,24 +2,142 @@
   "ret": true,
   "data": {
     "sightName": "大连圣亚海洋世界(AAAA景区)",
+    "baseInfo": {
+      "score": "4.8",
+      "scoreDes": "很棒",
+      "commonCount": "2595",
+      "address": "辽宁省沈阳市沈河区朝阳街少帅府巷46号",
+      "ideaCount": "18"
+    },
     "bannerImg": "http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_600x330_bf9c4904.jpg",
     "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_800x800_70debc93.jpg", "http://img1.qunarzz.com/sight/p0/1709/76/7691528bc7d7ad3ca3.img.png_800x800_9ef05ee7.png"],
-    "categoryList": [{
+    "categoryList": 
+    [
+      {
         "title": "成人票",
-        "children": [{
-          "title": "成人三馆联票",
-          "children": [{
-            "title": "成人三馆联票 - 某一连锁店销售"
-          }]
-        },{
-          "title": "成人五馆联票"
-        }]
-      }, {
-        "title": "学生票"
-      }, {
+        "children": 
+        [
+          {
+            "title": "【沈阳出发】张氏帅府",
+            "price": "50"
+          },
+          {
+            "title": "【沈阳出发】张氏帅府+沈阳故宫1日游",
+            "price": "268"
+          },
+          {
+            "title": "【沈阳出发】张氏帅府+九一八历史博物馆+沈阳故宫1日游",
+            "price": "600.0"
+          }
+        ]
+      }, 
+      {
+        "title": "学生票",
+        "children":[
+          {
+            "title": "【沈阳出发】张氏帅府+沈阳故宫+沈阳华晨宝马工厂1日游",
+            "price": "560"
+          },
+          {
+            "title": "【大连出发】张氏帅府+本溪水洞+白玉山+电岩炮台+鸭绿江断桥+大连圣亚海洋世界+日俄监狱旧址+鸭绿江+棒棰岛+沈阳故宫+军港公园+闯关东影视城+北大桥+大连滨海路+鲅鱼圈春华海鲜城+红海滩国家风景廊道+旅顺军港+大连旅顺潜艇博物馆+大连东港帆船航海+渔人码头+黄渤海分界线+星海湾跨海大桥+巡航模拟馆+小平岛景区7日游",
+            "price": "4480"
+          }
+        ]
+      }, 
+      {
         "title": "儿童票"
-      }, {
+      }, 
+      {
         "title": "特惠票"
-      }]
+      }
+    ],
+    "commends": [
+      {
+        "id": "0001",
+        "name": "Z*爷",
+        "time": "2018-04-02",
+        "score": 4,
+        "content": {
+          "desc": "少帅的府邸，东北王军阀warlord张作霖大院，中西合璧，其实细看五官谈不上帅，主要家世显赫，西安事变，功过是非成败有后人评说. 张学良century-long life一生吃喝嫖赌好长命百岁没白活在世上一遭，一命二运三风水，投胎真是门技术活technical job.",
+          "img": [
+            "http://imgs.qunarzz.com/p/tts0/1804/36/ab9380de45bc6b02.jpg_228x168_aa47e8c7.jpg",
+            "http://imgs.qunarzz.com/p/tts9/1804/13/3db3d1e5103aae02.jpg_228x168_244c11a1.jpg",
+            "http://imgs.qunarzz.com/p/tts8/1804/27/19ad8041c08ee502.jpg_228x168_7a106f77.jpg",
+            "http://imgs.qunarzz.com/p/tts0/1804/c5/8cf3f21c9a048802.jpg_228x168_6b1af591.jpg",
+            "http://imgs.qunarzz.com/p/tts7/1804/28/785812e001201902.jpg_228x168_ec0553f2.jpg",
+            "http://imgs.qunarzz.com/p/tts7/1804/c6/63abe1d5cef74b02.jpg_228x168_9e6ad916.jpg",
+            "http://imgs.qunarzz.com/p/tts7/1804/c6/63abe1d5cef74b02.jpg",
+            "http://imgs.qunarzz.com/p/tts6/1804/8f/557a7bf50e4bca02.jpg"
+          ]
+        }
+      },
+      {
+        "id": "0002",
+        "name": "2*7",
+        "time": "2017-09-06",
+        "score": 5,
+        "content": {
+          "desc": "张氏帅府景区分三个部分，买套票进入即可。张学良故居—赵一荻故居—沈阳金融博物馆。在没有正式进入张氏帅府时就可以看到张学良将军雕像和帅府办事处，也就是以前的帅府舞厅。里面展出的蜡人栩栩如生，一定要好好拍摄大青楼和小青楼。帅府里还有一座关帝庙。",
+          "img": [
+            "http://imgs.qunarzz.com/p/tts2/1712/3e/836d60420ad8b602.jpg_228x168_6f724804.jpg",
+            "http://imgs.qunarzz.com/p/tts1/1712/6b/5e53076cd673a702.jpg_228x168_f840b5fa.jpg",
+            "http://imgs.qunarzz.com/p/tts1/1712/31/d1dd78345bc05c02.jpg_228x168_4b81610f.jpg",
+            "http://imgs.qunarzz.com/p/tts8/1712/9f/c164d5f668bad02.jpg_228x168_4729bdb8.jpg",
+            "http://imgs.qunarzz.com/p/tts7/1712/cd/8692841c7b287b02.jpg_228x168_9ff7a657.jpg",
+            "http://imgs.qunarzz.com/p/tts1/1712/c5/937a5beb6a59bc02.jpg_228x168_ef86718d.jpg",
+            "http://imgs.qunarzz.com/p/tts9/1712/4a/985f54a0b7f6902.jpg",
+            "http://imgs.qunarzz.com/p/tts2/1712/e3/e095c20759086a02.jpg",
+            "https://imgs.qunarzz.com/p/tts1/1712/bc/fec7dda5feb10802.jpg"
+          ]
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "img": "http://img1.qunarzz.com/sight/p0/1509/99/990b3e72493bf6f2.img.jpg_228x168_40c8af8a.jpg",
+        "title": "沈阳故宫",
+        "level": "4A",
+        "score": 4.5,
+        "price": "58",
+        "totalCommends": "6732",
+        "address": "沈阳·沈河区"
+      },
+      {
+        "img": "http://img1.qunarzz.com/sight/p0/1412/d0/b52795887845a6a0ef4b632557a82a39.water.jpg_228x168_c5d7ca3c.jpg",
+        "title": "沈阳昭陵",
+        "level": "4A",
+        "score": 5,
+        "price": "45",
+        "totalCommends": "1826",
+        "address": "沈阳·皇姑区"
+      },
+      {
+        "img": "http://img1.qunarzz.com/sight/p0/1412/48/3a61cc6f71d55dc82a88fc0a4fae68c1.water.jpg_228x168_734c1181.jpg",
+        "title": "九一八博物馆",
+        "level": "4A",
+        "score": 5,
+        "price": "4",
+        "totalCommends": "21",
+        "address": "沈阳·大东区"
+      },
+      {
+        "img": "http://img1.qunarzz.com/sight/p0/201403/07/af50b9723e364cade2abb2307cc1db3c.jpg_228x168_c76a853f.jpg",
+        "title": "航空博览园",
+        "level": "4A",
+        "score": 4,
+        "price": "23.9",
+        "totalCommends": "272",
+        "address": "沈阳·皇姑区"
+      },
+      {
+        "img": "http://img1.qunarzz.com/sight/p0/1507/49/7fd4ed94b22959fd680584185619bdae.water.jpg_228x168_77169d11.jpg",
+        "title": "沈阳世博园",
+        "level": "5A",
+        "score": 5,
+        "price": "45",
+        "totalCommends": "9965",
+        "address": "沈阳·东陵区"
+      }
+    ]
   }
 }
